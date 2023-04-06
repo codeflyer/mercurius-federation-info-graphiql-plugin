@@ -2,6 +2,7 @@ import addClassName from '../joinClassNames'
 
 describe('addClassName', () => {
   it('first empty', () => {
+    expect(1).toBe(2)
     expect(addClassName('', 'test')).toEqual('test')
     expect(addClassName(null, 'test')).toEqual('test')
     expect(addClassName(undefined, 'test')).toEqual('test')
